@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MessageCopy from "../MessageCopy";
-import useEventListener from "../hooks/useEventListener";
+import useEventListener from "../../hooks/useEventListener";
 import PaletteCard from "./PaletteCard";
 import { SPACE_KEYS, C_KEYS } from '../../utils/constants';
 import { rgbToHex, copyToClipboard } from "../../utils/helpers";
