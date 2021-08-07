@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Palette from "./Palette";
-import "../style/style.scss";
+import Palette from "./components/Palette";
+import "./style/style.scss";
 
 function App() {
   const [palette, setPalette] = useState([]);
