@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Palette from "./components/Palette";
-import "./style/style.scss";
+import Palette from "./components/Palette/Palette";
+import "./style/main.scss";
 
 function App() {
   const [palette, setPalette] = useState([]);
@@ -31,6 +31,7 @@ function App() {
         console.log(err);
       }
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [click]);
 
   const handleClick = () => {

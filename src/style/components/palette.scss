@@ -1,65 +1,3 @@
-$clr-white: white;
-
-.main {
-  background-color: #e8ebf3;
-  color: #222;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-}
-
-button {
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-}
-
-.container {
-  position: relative;
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 5rem 0;
-}
-
-h1 {
-  margin-bottom: 3rem;
-}
-
-.generate-btn {
-  font-size: 18px;
-  margin: 3rem 0 0;
-  background-color: #7f6ac9;
-  color: $clr-white;
-  padding: 1rem 8rem;
-  border-radius: 4px;
-}
-
-.copy {
-  background-color: $clr-white;
-  border-radius: 1rem;
-  margin: 0 auto;
-  padding: 0.5rem;
-  margin-top: 5rem;
-  width: fit-content;
-}
-
-.sign-top {
-  position: absolute;
-  color: rgb(154, 136, 167);
-  background-color: rgb(26, 26, 26);
-  top: -40px;
-  left: calc(50% - 180px);
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
-  margin-top: 5rem;
-  width: fit-content;
-
-  span {
-    color: $clr-white;
-  }
-}
-
 .palette {
   display: flex;
   justify-content: space-between;
@@ -75,6 +13,7 @@ h1 {
     &:hover {
       box-shadow: 1px 4px 10px 0 rgba($color: #000000, $alpha: 0.4);
       transform: translateY(-3px);
+
       span {
         font-weight: bold;
       }
@@ -94,11 +33,22 @@ h1 {
   }
 }
 
+.generate-btn {
+  font-size: 18px;
+  margin: 3rem 0 0;
+  background-color: #7f6ac9;
+  color: $clr-white;
+  padding: 1rem 8rem;
+  border-radius: 4px;
+}
+
 @media only screen and (max-width: 850px) {
   .palette {
     flex-direction: column;
+
     &__card {
       position: relative;
+
       &-color {
         width: 100%;
         height: 100px;
