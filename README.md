@@ -1,3 +1,7 @@
+# Color Generator Feedback
+This is feedback for a project made by @eruj22
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
